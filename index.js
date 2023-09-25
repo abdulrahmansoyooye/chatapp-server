@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://whatsapp-clone-eight-nu.vercel.app/",
+    origin: "https://whatsapp-clone-eight-nu.vercel.app",
     methods: ["GET", "POST"],
   },
 });
